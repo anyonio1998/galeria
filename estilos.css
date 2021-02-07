@@ -52,7 +52,7 @@ h1{
   background-size: 400% 400%;
 
 }
-@keyframes cambia-color{
+@keyframes cambia-color{ /*Sirve para controlar los pasos intermedios*/
   0%{
     background-position: 0%, 50%;
   }
@@ -81,7 +81,7 @@ h1{
   transform: scale(1.1);   /*aumenta el tamaño multiplicando su tamaño por 1.1*/
   transition: all 0.5s ease;
 }
-.titulo-imagen:active{
+.titulo-imagen:active{   /*representa un elemento (como un botón) que el usuario está activando */
   background: rgba(255,255,255,0.5);
 }
 
